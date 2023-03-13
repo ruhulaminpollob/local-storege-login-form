@@ -17,20 +17,20 @@
                 <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
                 <div  class="form-text">We'll never share your name with anyone else.</div>
                 <button type="submit" onclick="storeLocal('name')" class="btn btn-primary">Submit</button>
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" onclick="removeLocal('name')" class="btn btn-danger">Delete</button>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                 <div  class="form-text">We'll never share your email with anyone else.</div>
                 <button type="submit" onclick="storeLocal('email')" class="btn btn-primary">Submit</button>
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" onclick="removeLocal('name')" class="btn btn-danger">Delete</button>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Password</label>
                 <textarea name="" class="form-control" id="message" cols="30" rows="5" placeholder="Message"></textarea>
                 <button type="submit" onclick="storeLocal('message')" class="btn  btn-primary">Submit</button>
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" onclick="removeLocal('name')" class="btn btn-danger">Delete</button>
             </div>           
         </form>
         <div class="text-center mb-5">
